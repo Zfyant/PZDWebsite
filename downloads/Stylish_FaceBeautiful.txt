@@ -1,0 +1,1106 @@
+/**************************************************
+
+THANK YOU FOR ENTERTAINING MY HARD WORK
+CODED BY ZECHARIAH COWLES
+
+**************************************************/
+
+html, body {
+      /* To change the background, modify the URL in the 'quotes' below */
+    background: #111 url('http://prozechdesigns.com/images/bg-0.jpg') !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    width: 100% !important;
+}
+
+* {
+    border-color: transparent !important;
+    font-size: 15px;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.2) !important;
+    -moz-transition: opacity .4s ease-out;
+}
+#null {
+    background: #000;
+}
+select {
+    background-color: #222 !important;
+    color: #999 !important;
+    margin: 0px 5px !important;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #9cb4d8 !important
+}
+input {
+    color: #7c9de1 !important;
+}
+.uiButton:hover {
+    background-color: #222;
+    text-decoration: none;
+}
+.uiSelector .uiSelectorButton:active {
+    background-color: transparent !important;
+}
+/* Background Color */
+body::before, body, body::after .home ._li,
+.home ._li,
+.timelineLayout ._li,
+.timelineLayout ._li .fbTimelineTimePeriod {
+    background: #111 !important;
+	padding: 0px;
+    margin: 0px;
+}
+
+#id_5679bc4e654540947080564 {
+	color: #888;  
+}
+/* Necessary Transparency */
+.Blank  {
+	background: transparent !important;
+}/**************************************************/
+
+/* Empty */
+#stream_pagelet {
+    background: rgba(100,0,0,0.0);
+}
+/* Container Size  */
+#globalContainer {
+    background: rgba(250,250,250,0.2) !important;
+    width: 1000px !important;
+    margin: 20px auto 0px !important;
+    padding: 15px !important;
+    border-radius: 10px !important;
+}
+@media only screen and (max-width: 1060px) {
+    #globalContainer {
+			width: 94% !important;
+    		padding: 15px 1% !important;
+            margin: 20px 2% !important;
+    }
+}
+/* (Body Stream Container) */
+.fb_content {
+    border-radius: 10px !important;
+    background: rgba(0,0,0,0.0) !important;
+}
+/* (Body Stream Container) */
+#mainContainer {
+    background: rgba(0,0,0,0.0) !important;
+}
+/* (Body Stream Container) */
+#contentCol {
+    width: 100% !important;
+    background: rgba(0,0,0,0.0) !important;
+    left: 0px !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+/* (Child to Wrapper) */
+#contentArea {
+    background: rgba(150,250,250,0.0) !important;
+    width: 100% !important;
+    float: right !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+/* (Child to Wrapper - Profile Page) */
+.timelineLayout #contentArea {
+    width: 100% !important;
+}
+/* (Main Page - Header Bar) Transparency */
+._2s1x ._2s1y {
+    opacity: 0.6;
+    transition: all ease .5s;
+}
+._2s1x ._2s1y:hover {
+    opacity: 1;
+}
+
+
+/********************** PROFILE/PERSONAL PAGE ****************************/
+
+/* (Profile Page Columns - Right) Width */
+._5nb8 {
+    width: 550px !important;
+    float: right;
+}
+/* (Profile Page Columns - Left?) Width */
+._1vc-, ._2t4v {
+    max-width: 430px !important;
+    width: 430px !important;
+    float: left;
+}
+@media only screen and (max-width: 1100px) {
+  .w1rapper {
+		width: 600px;
+	}
+}
+/* (Profile Page Columns - Left - Child?) Width */
+._2t4v {
+    width: auto !important;
+}
+/* (Profile Page - Status Compose) Width */
+._s7h {
+    width: 99% !important;
+}
+/* (Profile Page - Status Compose) Width */
+.fbTimelineUnit {
+    width: 100% !important;
+}
+/* (Profile Page Cover - Tab Bar) */
+#fbTimelineHeadline {
+    background: rgba(0,0,0,0.5) !important;
+}
+/* (Profile Page Cover - Tab Bar Pointer) */
+._513x {
+    display: none !important;
+}
+/* (Profile Page Cover - Tab Hover) */
+._6-6 {
+    border-bottom: solid 1px rgba(0,0,0,0) !important;
+}
+/* (Profile Page Cover - Tab Hover) */
+._6-6:hover {
+    background: rgba(50,50,50,0.6) !important;
+    border-bottom: solid 1px #666 !important;
+}
+/* (Profile Page Cover - Tab Bar) */
+.fbTimelineTopSection {
+    background: rgba(50,50,50,0) !important;
+}
+/* (Personal Page - Cover) Size Fix */
+#fbProfileCover, #pagelet_above_header_timeline {
+    margin: 0;
+}
+/* (Personal Page - Timeline Header) */
+#timeline_top_section {
+    border-radius: 10px !important;   
+}
+
+/*** POPUP BOXES ****/
+
+/* (Profile Page - Edit Info Popup) Main Background */
+._4-i2{
+    background: rgba(0,0,0,0.8) !important;
+}
+
+/* (Profile Page - Status Privacy Popup) Main Container */
+._59s7 {
+    background: rgba(0,0,0,0.6) !important;
+    border-radius: 20px !important;
+}
+/* (Profile Page - Status Privacy Popup) Inner Backgrounds */
+._pig, ._50f4,  /* Same Thing */
+._5a8u {
+    background: transparent !important;
+}
+/* (Profile Page - Status Privacy Popup) Titles */
+.uiHeader {
+    padding: 10px !important;
+}
+/* (Profile Page - Status Privacy Popup) Titles */
+.uiHeaderTitle {
+    padding: 0 20px !important;
+}
+/* (Profile Page - Status Privacy Popup) Input AddNew */
+.uiTypeahead {
+    background: transparent !important;
+}
+/* (Profile Page - Status Privacy Popup) Input new Popup */
+._5f0v {
+    background: transparent !important;
+}
+
+
+/* (Profile Page - Edit Info Popup) Row Padding */
+tr._51mx {
+    border: solid 10px transparent !important;
+}
+/* (Profile Page - Edit Info Popup) Input Background */
+._51m- input, .pbs input, ._51mw input,
+.uiTokenizer, #u_57_5 {
+    background: #222 !important;
+}
+/* (Profile Page - Photo Selectors) Background */
+.mlePhotoButtons .mlePhotoButtonLink {
+    background-color: rgba(0,0,0,0.3) !important;
+    margin: 15px auto;
+    border-radius: 10px !important;
+}
+/* (Profile Page - Edit Info Popup) Header/Footer Background */
+.lifeEventHeader, .mleFooter {
+    background: #111 !Important;
+    margin: 0px !Important;
+    padding: 15px !Important;
+}
+/* (Profile Page - Edit Info Popup) Header Fix */
+.ptm {
+    padding-top: 0px !Important;
+}
+/* (Profile Page - Edit Info Popup) Buttons */
+._517h {
+    background-color: #222 !important;
+    color: #999 !important;
+    margin: 0px 5px !important;
+}
+/* (Profile Page - Side Nav) Width Fix */
+._54nz, ._54n-,
+._4bl9 {
+    width: 100% !important;
+}
+/* (Profile Page - Item Hover) BG Fix */
+._4bbo:hover, ._5f_8:hover,
+._5y02:hover, ._2kio:hover {
+    background-color: rgba(0,0,0,0.5) !important;
+}
+/* (Profile Page - Item) Position Fix */
+._zu9 {
+    padding-left: 0px !important;
+}
+/* (Profile Page - Item Font) Color Fix */
+._pt5 {
+    color: #365899 !important;   
+}
+/* (Profile Page - Sticky Header) BG Fix */
+.back{
+    background: rgba(25,25,25,0.75) !important;
+    width: 100% !important;
+    border: solid 1px #333 !important;
+    border-top: 0px !important;
+    border-bottom-left-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+}
+/* (Profile Page - Sticky Header) BG Fix */
+.stickyHeaderWrap {
+    width: 1000px !important;
+}
+
+
+/* (Personal Page - Status) New On Page (Not quite) */
+._5pcb, ._4b0l {
+    background: rgba(0,0,0,0) !important;
+}
+/* (Personal Page - Body MAIN) Transparent Display */
+/* (Also Cover / Careful)  */
+._5h60 {
+    background: rgba(0,0,0,0) !important;
+}
+/* (Personal Page - Body) Size Fix */
+#pagelet_main_column_personal._5h60 {
+    width: 100% !important;
+    margin-left: 1px !important;
+}
+/* (Personal Page) Remove Borders */
+.fbTimelineSection, .fbTimelineTopSection {
+    border-width: 0 !important;
+}
+/* (Personal Page - About) Detail Text */
+._173e .fcg {
+    color: #7c9de1 !important;
+}
+/* (Personal Page - About) Nav */
+._47__ ._5pws {
+    color: #7c9de1 !important;
+}
+/* (Personal Page - About) Nav:Hover */
+._5pwr:hover ._5pws {
+    color: #ddd !important;
+}
+/* (Personal Page - About) Title Bars */
+._3cz {
+    background: rgba(0,0,0,0.5) !important;
+    margin: 0px;
+}
+/* (Personal Page - About) Content */
+._30f {
+    background: rgba(0,0,0,0.3) !important;
+}
+/* (Personal Page - About) Content Fix Width */
+._3i9 {
+    width: 100% !important;
+    padding: 0px !important;
+}
+/* (Personal Page - About) Fix Content Width */
+._2w3 {
+    width: 100% !important;
+}
+/* (Personal Page - About) Fix Content-Left Width */
+._4bl9 {
+    display: inline-block !important;
+    width: 500px;
+}
+/* (Personal Page - About) Fix Content Width */
+._54nz {
+    margin: 0px;
+}
+/* (Personal Page - About) Fix Content Placement */
+._5aj7 {
+    width: 100% !important;
+}
+/* (Personal Page - About - Friends) Content Fix */
+._262m {
+    margin: 0px !important;
+    padding-top: 10px !important;
+}
+/* (Personal Page - About - Friends) Footer Fix */
+._3t3 {
+    background: rgba(0,0,0,0.5) !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+}
+/* (Personal Page - About) Fix Content-Right Width */
+._4bl7 {
+    display: inline-block !important;
+}
+/* (Personal Page - About) Fix Content-Right-Inner Width */
+._4ms4 {
+    width: 100% !important;
+    border-left: solid 1px rgba(0,0,0,0.6) !important;
+    padding: 15px 0px 0px 15px !important;
+    margin-top: 0px !important;
+}
+/* (Personal Page - About) Headers */
+._h71 {
+    padding: 10px !important;
+    font-size: 30px !important;
+}
+/* (Personal Page - About) Main Text */
+._c24 {
+    color: #aaa !important;
+}
+/* (Personal Page - Buttons) Color */
+._4jy4, .friendButton {
+    background: rgba(50,50,50,0.7) !important;
+    color: #aaa !important;
+}
+/* (Personal Page - Profile Picture) Border */
+#fbTimelineHeadline .profilePic, #fbTimelineHeadline .newProfilePic {
+    background: #222 !important;
+    border: 4px solid #000 !important;
+    border-radius: 2px !important;
+    box-shadow: 0px 0px 7px #000 !important;
+}
+/* (Personal Page - Profile Picture) Border */
+html ._262m ._698 {
+    border: 0px solid #000 !important;
+    margin: 0px 10px 10px 10px !important;
+    padding: 0 !important;
+    width: 47% !important;
+}
+/* (Personal Page - Friends) Pic B-Radius */
+._s0, ._rv {
+    border-radius: 50px !important;
+}
+/* (Personal Page - Buttons HO) BG */
+._53ij, .uiMenu {
+    background: #222 !important;
+}
+/* (Personal Page - Buttons HO [same thing]) Link */
+.uiMenu ul li a, .itemAnchor {
+    color: #999 !important;
+}
+/* (Personal Page - Photos) Fix */
+html ._69n {
+    margin: 0px auto !important;
+    padding: 20px 0px !important;
+}
+/* (Personal Page - Edit Mode Frame) */
+._53d9 {
+    background: rgba(20,20,20,0.8) !important;
+    width: 75% !important;
+    border: 0px solid #fff !important;
+    margin: 0 !important;
+    padding: 10px 8px !important;
+    border-radius: 15px !important;
+}
+/* (Personal Page - Edit Mode) BG */
+._53d9 ._50f8 {
+    color: #111 !important;
+}
+/* (Personal Page - Edit Mode) Text Align */
+._52jw {
+    text-align: left !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********************** ???? ****************************/
+
+
+/* Each Item In Main Content */
+._4-u2 {
+    background: rgba(100,100,100,0.1) !important;
+    margin: 10px auto !important;
+    padding: 1px;
+}
+/* Status-Create Font */
+._45m_ {
+    color: #74819b !important;
+}
+/* Status-Create Links */
+._5u8u {
+    color: #364f94 !important;
+    background: transparent;
+}
+/* (Down Arrow) */
+._5pbi  /*._cmw, ._5v56, ._b1e*/ {
+    margin-right: 10px !important;
+}
+
+/* Ads Panel */
+#rightCol {
+	display: none;
+    width: 80%;
+}
+/* Navigation Panel */
+body:not(.SettingsPage) #leftCol {
+    background: rgba(0,0,0,0.3) !important;
+    padding: 10px !important;
+    position: fixed !important;
+    top: 43px !important;
+    left: 0 !important;
+    width: 20px !important;
+    height: 100% !important;
+    z-index: 1 !important;
+    margin: 0px !important;
+    border-right: solid 1px #222 !important;
+    transition: all .3s ease !important;
+}
+/* Navigation Panel onHover */
+body:not(.SettingsPage) #leftCol:hover {
+    width: 250px !important;
+    background: rgba(20,20,20,0.8) !important;
+}
+/* Navigation Panel Links */
+body:not(.SettingsPage) #leftCol a {
+    color: #777 !important;
+}
+/*********************** ???? ***************************/
+    
+._2qh, ._2qe, .uploadFileRow, .chatAttachmentShelf, .fbNubFlyoutAttachments {
+    background: rgba(0,0,0,0.1) !important;
+    border: 0px;
+}
+
+
+
+/********************** NOTIFICATIONS ****************************/
+/* (Notifications) Author Font */
+.author span {
+	color: #5a91ff !important;
+}
+/* (Notifications) Heander & Footer Font */
+#u_0_2 a, .seeMore, .uiHeaderActions a, .uiHeaderTitle, ._42ef {
+	color: #7c9de1 !important;
+}
+/* (Notifications) Conversational Font */
+.snippet.preview {
+	color: #435a8a !important;
+}
+
+/* (Notifications) Header & Footer */
+.uiHeader, .seeMore {
+	background: rgba(49,78,144,0.4) !important;
+    border-radius: 5px !important;
+}
+/* (Notifications) UnRead Notifs */
+.notifCentered ._4xi2 ._33p ._33c._4af ._33e {
+	background: rgba(69,98,164,0.7) !important;
+}
+/* (Notifications - See All) ListItem Hidden Background */
+.anchorContainer a {
+	background: transparent !important;
+}
+/* (Notifications - See All) ListItem Font */
+._33c a {
+	color: #445b8e !important;
+    margin: 5px 0px;
+}
+/* (Notifications - See All) ListItem Rollover */
+._33c:hover, .jewelContent a:hover {
+	background: rgba(69,98,164,0.6) !important;
+    color: #88aaf7 !important;
+}
+/* (Notifications - See All) ListItem Background */
+._33c .anchorContainer a {
+	background: transparent !important;
+}
+/* (Notifications - See All) Header */
+.uiHeaderPage {
+	background: transparent !important;
+}
+/* (Notifications) Background */
+._33c,
+._33c .anchorContainer {
+	background: rgba(25,25,25,0.1) !important;
+    border-bottom: solid 1px #fff;
+}
+/* (Notifications) Background Hover */
+._33c .anchorContainer:hover,
+._33c:hover {
+    background: rgba(0,0,0,0.1) !important;
+}
+/* (Notifications) Background Hover */
+._4xi1, ._3nzk, .uiToggleFlyout {
+	border: solid 0px #222 !important;
+	background: transparent !important;
+}
+/* (Notifications) Dropdown JewelItems Background */
+.__tw {
+	background: rgba(25,25,25,0.85) !important;
+}
+/* (Notifications) FriendRequest Dropdown 'New Requests' */
+/* (Profile Page - Edit Info) Form Background */
+._51m-, .listGray{
+	background: rgba(25,25,25,0.0) !important;
+}
+
+
+/********************** Message Compose Dropdown ****************************/
+
+
+/* (Message Compose Popup) (@) Necessary Transparency */
+/* Button Background, Unknowns */
+._51-t, ._3chm, ._5vb_, #_4-u8 {
+    background: transparent !important;
+}
+
+
+/* (Status Box) Miscs */
+._4t2a, ._4-u3 {
+    background: transparent !important;
+}
+/* (Message Compose Popup) (@) Backgrounds */
+/* Misc Content, Input Box */
+._5yk1, ._5t22, ._4-i0 {
+    background: rgba(0,0,0,0.1) !important;
+}
+/* (Message Compose Popup) Title */
+._42ym, ._41kd {
+	color: #5572c4 !important;
+}
+/* (Message Compose Popup) Close Button */
+._51-u button {
+	background: url("https://www.dropbox.com/s/toean43e0cv7nyg/Close_Icon.png?raw=1") !important;
+    background-size: 100% auto !important;
+    color: rgba(0,0,0,0) !important;
+    width: 16px;
+    height: 16px;
+}
+
+
+/**************************************************/
+/* (Status Compose Box) Bottom Margin */
+#pagelet_composer {
+    margin-bottom: 25px !important;
+}
+
+/** All Text-Boxes **/
+  /* (All Boxes) */
+  ._5yk1 {
+	background: transparent !important;
+    border-radius: 10px !important;
+  }
+  /* (Comment Boxes) */
+  ._1osb {
+    background: rgba(0,0,0,0.0) !important;
+  }
+  /* (Status Box) */
+  ._1mwp, ._395, ._1mwq, ._4c_p, ._5bu_ {
+    background: rgba(0,0,0,0.5) !important;
+  }
+
+/* (Status Compose - Post Bar) Tranparency */
+._1cx1 ._ei_ {
+    background: transparent !important;
+}
+
+/* (Status Compose - Photo/Album Buttons) Tranparency */
+/* NOT WORKING */
+._3jk input, ._n ._5f0v {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+/* (Status Item) Tranparency */
+/* Main Compose|Footer  */
+._55d0, ._5t_y ._1dsp._42jz {
+    background: transparent;
+}
+/* (Status Item) Per Person */
+.UFIReplyList {
+    background: rgba(0,0,0,0.05);
+}
+/* (Content Item - Video Item) White BG Fix */
+._3ccb, ._4-u8 {
+  background: transparent !important;   
+}
+/* (Status Item) Bottom Content */
+._1dsp .clearfix, ._42jz .clearfix {
+	background: rgba(75,75,75,0.0);
+}
+/* (Status Item) Search Bar Text */
+.innerWrap {
+	background: transparent;
+    border-radius: 8px;
+}
+/* (Status Item) Main Background */
+._119 {
+    background: rgba(0,0,0,0.1) !important;
+}
+.UFICommentCloseButton {
+    background: rgba(0,0,0,1) !important;
+    border: solid 1px #222;
+}
+/* (Status Item) Account Text-Colors */
+.fcg a, .UFICommentActorName span {
+    color: #528fff;
+	font-variant: small-caps;
+	text-transform: capitalize;	
+}
+/* (Status Item) But Not These Text-Colors */
+.livetimestamp, .UFILikeLink:link {
+    color: #767a82;
+	font-variant: normal;
+	text-transform: none;
+}
+/********************** VARIOUS INPUT BOXES ****************************/
+
+/* (Comment Box) Necessary Tranparency */
+.uiUfi,
+.UFIContainer,
+.UFIRow, 
+.UFILikeSentence, 
+.UFIFirstComponent {
+	background: rgba(0,0,0,0) !important;
+}
+/* (Comment Box) Background */
+.UFIList {
+	background: rgba(0,0,0,0.1) !important;
+    border-radius: 10px !important;
+    margin: 10px;
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.25) !important;;
+}
+/* (Comment Box) Background 2 */
+._4d3w._u77 ._3t09,
+.fbPhotosSnowboxFeedbackInput {
+    background: #111 !important;
+}
+/* (Comment Box) Write A Comment - onClick (Working?!) */
+.UFIAddCommentInput {
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.0);
+    margin: 0px 15px !important;
+}
+/* (Text-Input Boxes) Remove Borders */
+.UFICommentContainer, .UFIInputContainer, .UFIAddCommentInput
+{
+    border: solid 0px #000;
+}
+
+/* (Status Creator) Type Box */
+._5yk1, ._1mwp, ._4c_p, ._5bu_
+{
+	background: rgba(0,0,0,1);
+    border-radius: 0px;
+    box-shadow: inset 0px 0px 15px 5px rgba(0,0,0,0.5);
+    margin: 0px 10px !important;
+}
+
+/* (Status Box - Input) ReFix Width */
+._1mwp, ._395, ._1mwq, ._4c_p, ._5bu_, ._17nh, ._5yk1 {
+    width: 100% !important;
+}
+._5qtq::after {
+    border-bottom-color: #000;
+}
+/**************************************************/
+
+
+/* (Content Column) Post Headings */
+._6m3 a {
+	color: #364f94 !important;
+}
+/* (Content Column - Individual Posts) Background */
+
+ ._4-u2{
+	background: rgba(0,0,0,0.4) !important;  
+    border-radius: 10px !important;
+}
+
+/* (Content Column) Text */
+._5pbx p, .UFILikeSentenceText, ._1dwg, .rhcBody, .UFIRow {
+	color: #74819b !important;
+}
+/* (Content Column) Likes/Comments DisableRO */
+._3ty9 a:hover {
+	background: transparent !important;
+}
+._1ui6 {
+	color: #74819b !important;    
+}
+._51iz, ._1ui2 span {
+	color: #555 !important;    
+}
+.uiGrid, ._51mz, .mleGrid {
+    background: rgba(0,0,0,0.0) !important;  
+}
+
+/**************************************************/
+
+
+/* (Quick Bar) Item Hover */
+._5afe:hover {
+	background: rgba(50,50,50,0.8) !important;
+    font-weight: 800;
+}
+
+/*********************** MEDIA POP IN ***************************/
+
+/* (Picture PopIn) (@) Splitter */
+.uiScrollableAreaTrack .invisible_elem {
+    background: rgba(0,0,0,0.1) !important;
+}
+/* (Picture PopIn) (@More Layers Up) Background */
+.fbPhotoSnowliftControls, .rhcBody, .rhc, .photoUfiContainer {
+    background: rgba(0,0,0,0.1) !important;
+}
+._3ixn {
+	background: rgba(100,100,100,0.5) !important;    
+}
+
+
+/* (Video Item) Background */
+._6m2 {
+	background: transparent;
+}/* (Video Item) Background */
+._dcs {
+	box-shadow: 0px 0px 0px rgba(0,0,0,0) !important;
+}
+
+/********************* CHAT POPUP  ***********************/
+
+/* (Chat Popup) Background */
+.fbDockChatTabFlyout .fbNubFlyoutBody{
+    background: rgba(0,0,0,0.5) !important;
+}
+._2sb2 a {
+    color: #ddd !important;
+}
+/* (Chat Page) Typing Text */
+._1rv{
+    color: #222 !important;
+}
+
+/* (Chat Popup - Header & Nub) BG Fix */
+._50mz .fbNubFlyoutTitlebar,
+.fbNubButton {
+    background: rgba(54,88,153,0.85) !important; 
+}
+/* (Chat Popup - Header & Nub) Name Fix */
+._50mz .fbNubFlyoutTitlebar a,
+.name, .fwb {
+    color: #ccc !important;
+}
+
+/* (Chat Popup) Input Box Font */
+.uiTextareaAutogrow{
+    background: rgba(0,0,0,0.1) !important;
+    color: #fff;
+}
+/* (Chat Popup - Input Box) */
+.fbNubFlyoutFooter{
+    background: rgba(10,20,40,0.9) !important;
+    border: solid 1px rgba(0,0,0,1) !important;
+    box-shadow: inset 0px 0px 5px rgba(0,0,0,0.8) !important;
+}
+/* (Chat Popup - Input Box) Give Border */
+._552n {
+    border-top: solid 1px rgba(0,0,0,0.3) !important;
+}
+/* (Chat Popup) Typing Text */
+._1mf, ._1mj {
+	color: #ddd;   
+}
+/* (Chat Popup) All Text */
+._5yl5 {
+    color: #ddd !important;
+}
+/* (Chat Popup) Both Sides */
+._5wd4 {
+    border-radius: 10px !important;
+    margin: 3px !important;
+}
+/* (Chat Popup) Right Side Text Bubble */
+._1nc6 {
+    background: #444 !important;
+}
+/* (Chat Popup) Left Side Text Bubble */
+._1nc7 {
+    background: #4080ff !important;
+}
+/* (Chat Popup) Hide Misc Layers */
+._5wd9, ._5wde, ._n4o,
+._5w1r ._3_om, ._5wdf,
+._4gx_{
+    background: transparent !important;
+}
+/* (Chat Popup) (@) My Bubble / Their Buble */
+._d97 {
+	background: rgba(0,0,100,0.0) !important;
+    border-radius: 10px;
+}
+/* (Chat Popup) (@) Weird Arrow */
+._5w1r ._5wdf ._3okg::after {
+	background: transparent !important;
+}
+/* (Chat Popup - See All) Dark Background */
+._ksg, ._li, #js_24 {
+    background: rgba(0,0,0,0.1) !important;
+}
+/* (Chat Popup - See All) Transparent Background */
+._1rs {
+    background-color: rgba(0,0,0,0.5) !important;
+}
+/* (Chat Popup - Links) BR Fix */
+._49or._310t.clearfix {
+    border-radius: 12px;
+}
+
+
+/********************* CHAT BAR ***********************/
+
+/* (Chat Bar) */
+.fbChatSidebar{
+    right: -170px !important;
+    background: rgba(100,100,100,0.5) !important;
+    border: solid 0px #000 !important;
+    box-shadow: 0px 0 0 #000 inset !important;
+    width: 236px !important;
+    transition: all ease 0.5s !important;
+}
+.fbChatSidebar:hover, .fbChatSidebar:focus{
+    right: 0px !important;
+}
+/* (Chat Bar - Games) Hide Div */
+#pagelet_canvas_nav_content {
+    display: none !important;   
+}
+/* (Chat Bar - Friends) Height Fix */
+.fbChatSidebarBody {
+    height: auto !important;
+    width: 100% !important;
+}
+/* (Chat Bar - Title) Color Fix */
+._55oc, ._225b {
+    color: #ddd !important; 
+    margin-left: 15px !Important;
+}
+/* (Chat Bar - Friend Fonts)  Color Fix */
+._55ln, ._3q34, ._364g {
+    color: #74819b !important;
+}
+/* (Chat Bar - Friends:Hover) Fixes */
+._55ln:hover, li.selected ._55ln,
+._5vb_ ._5pr2 .fbFeedTicker .tickerStoryClickable:hover {
+    background-color: rgba(0,0,0,0.4) !important;
+    box-shadow: 0px 0 0 #777 inset !important;
+    border: 0px !important;
+}
+/* (Chat Bar - People Ticker) Give Border */
+#pagelet_ticker {
+    border-bottom: solid 1px rgba(0,0,0,0.1) !important;
+    padding-bottom: 10px !important;
+}
+/* (Chat Bar - Search Bar) BG Fix */
+._5iwm ._58al {
+    background-color: rgba(150,150,150,0.4) !important;
+    border-radius: 0px !important;
+}
+/* (Chat Bar - Search Bar Buttons) BG Fix */
+._531b {
+    background-color: rgba(150,150,150,0.4) !important;
+}
+/* (Chat Bar - Search Function) BG Fix */
+._4oes, .fbChatSidebarMessage, .fbChatTypeahead ._4p-s {
+    background-color: transparent !important;
+    color: #74819b !important;
+}
+/* (Chat Bar - Name:Hover) Dim Background */ 
+.pam, ._711, ._4o-f {
+	background: rgba(50,50,50,0.4) !important;
+}
+
+/* (Chat Bar - People Blocks) */
+._42fz {
+	margin-left: 6px !important;
+}
+/* (Chat Bar - Containers) Fix Lengths */
+.TuiScrollableArea .uiScrollableAreaWrap div.uiScrollableAreaBody {
+    width: 235px !important;
+}
+/********************* CHAT SUBPAGE ***********************/
+
+/* (Chat Subpage - List) Name Color */
+._l2 span {
+    color: #6d84b4 !important;
+}
+/* (Chat Subpage - Chat) Name Color */
+._36 a {
+    color: #528fff !important;
+}
+/* (Chat Subpage - Chat) Link Titles Color */
+.__6k {
+    color: #6d84b4 !important;
+}
+
+
+
+/************************MISC**************************/
+
+/* (Refresh Content) Hover Button */
+._2f6b {
+	background: rgba(75,75,75,0.4) !important;
+    border: solid 1px #222 !important;
+    left: 50% !important;
+}
+
+/* (Video Content - NonPopUp) Hide BG */
+._6l-, .__c_, ._6l-, .__c_:after {
+	background: rgba(0,0,0,0) !important;
+    border-color: rgba(0,0,0,0) !important;
+}
+
+/* (Link Content - NonPopUp) Darken Drop BG */
+._3x-2 {
+    background: rgba(0,0,0,0.5) !important;
+    border: solid 1px #000 !important;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+/* (Status Jewels - Add Item) */
+._3xem:hover {
+    border-radius: 15px;
+}
+/* (Status Type) */
+._5qtm:hover {
+    padding: 10px !important;
+    border-radius: 10px;
+}
+
+/* (Status Add Item) Jewels Hover Over Darken */
+._3xem:hover, ._5qtm:hover {
+    background: rgba(0,0,0,0.3) !important;
+}
+
+
+/* (Page Buttons) Change Backgrounds */
+#u_0_16, #u_1d_35 {
+    background: rgba(80,80,80,0.4) !important;
+}
+
+/* (Status Creator - Privacy Filter Menu) Change Background */
+._54ng {
+    background: rgba(40,40,40,0.7) !important;
+}
+
+/* (Status Creator - Privacy Filter Menu) Hide Sub-Backgrounds */
+._4h7j {
+	background: transparent !important;
+}
+
+/* (Drop Down Boxes) Recolor Link Text */
+._54nh, ._48u0, ._55pe, ._2ezy {
+	color: #ddd !important;    
+}
+
+/* (Image Popup - People U May Know) Remove Div - Extra Comments Room */
+._5ciw, .rhcFooter {
+	display: none !important;    
+}
+
+/* (Page Info Indicators) Transparent Backgrounds */
+._4arz, ._ipo {
+	background: transparent !important;    
+}
+
+/* (Like Indicator) Fix Clipping */
+._3t54 {
+	margin: 0px 6px 0px 2px !important;    
+}
+
+/* (Like Indicator) Finish Words /
+#js_1e::after, ._1g5v::after {
+	content: " Likes";   
+}
+
+
+/* (Password Change Page) Fix BG */
+._4-u5, strong {
+    background-color: transparent !important;
+    color: #ddd !important;
+}
+/* (Password Change Page) Fix Random Text Colors */
+._2e9n, ._50f9, ._5p3j {
+    color: #bbb;
+}
+/* (Password Change Page) Robot Pic */
+#u_0_1 {
+    border-radius: 200px;
+}
+
+
+
+/* (Search Results - (Person/Event) Main Link Color */
+._5d-5, ._2yez, 
+._38my {
+  color: #528fff !important;   
+}
+/* (Search Results - Person) Job Text Color */
+._pac {
+  color: #7c9de1 !important;   
+}
+/* (Global Search Bar) */
+._585-{
+    background: #222 !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+._585- input{
+    color: #74819b !important
+}
+/* (Global Search Bar - DropDown) */
+._50c9 {
+    background: rgba(0,0,0,0.7) !important;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}
+/* (Global Search Bar - DropDown) Fix */
+._366f {
+    background: transparent !important;
+}
+/* (Global Search Bar - DropDown Text) */
+.fragmentText {
+    color: #74819b !important;
+}
+/* (Global Search Bar - DropDown Text:Hover) */
+#facebar_typeahead_view_list .selected {
+    background: rgba(50,50,50,0.5) !important;
+}
+/* (Global Search Bar - DropDown Title) */
+._3zsi {
+    background: transparent !important;
+}
+/* (Global Search Bar - DropDown Result) TextColor Fix */
+._19bs {
+    color: #666;
+}
+
+
